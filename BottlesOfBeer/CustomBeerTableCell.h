@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CustomBeerTableCell : UITableViewCell
-{
-    IBOutlet UILabel *beerLabel;
-}
+
+
+@property IBOutlet UILabel *beerLabel;
+@property IBOutlet UILabel *brewerLabel;
 
 @end

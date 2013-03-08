@@ -19,6 +19,8 @@
 {
     BeerInfo *bNames = [[BeerInfo alloc] init];
     beers = [bNames beerNames];
+    BeerInfo *brewerNames = [[BeerInfo alloc] init];
+    brewers = [brewerNames beerBrewerName];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -50,7 +52,8 @@
          if([view isKindOfClass:[CustomBeerTableCell class]])
          {
              cell = (CustomBeerTableCell*)view;
-             cell.textLabel.text = [beers objectAtIndex:indexPath.row];
+             cell.beerLabel.text = [beers objectAtIndex:indexPath.row];
+             cell.brewerLabel.text = [brewers objectAtIndex:indexPath.row];
              
          }
         }
@@ -62,6 +65,6 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"row=%d", indexPath.row);
+
 }
 @end

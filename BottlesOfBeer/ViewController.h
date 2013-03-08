@@ -13,6 +13,7 @@
 {
     IBOutlet UITableView *beerItems;
     NSMutableArray *beers;
+    NSMutableArray *brewers;
 }
 
 @end

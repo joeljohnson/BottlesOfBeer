@@ -22,6 +22,10 @@
 		9FCF3D2216E868C000C0FB64 /* CustomBeerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2116E868C000C0FB64 /* CustomBeerCell.xib */; };
 		9FCF3D2416E869EF00C0FB64 /* beermug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2316E869EF00C0FB64 /* beermug.jpg */; };
 		9FCF3D2716E86A7500C0FB64 /* CustomBeerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2616E86A7500C0FB64 /* CustomBeerTableCell.m */; };
+		9FCF3D2916E9849F00C0FB64 /* BeerAppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2816E9849F00C0FB64 /* BeerAppIcon@2x.png */; };
+		9FCF3D2B16E9852800C0FB64 /* BeerAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2A16E9852800C0FB64 /* BeerAppIcon.png */; };
+		9FCF3D2D16E9875D00C0FB64 /* BeerDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2C16E9875D00C0FB64 /* BeerDetailView.xib */; };
+		9FCF3D3016E989D300C0FB64 /* BeerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2F16E989D200C0FB64 /* BeerDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +51,11 @@
 		9FCF3D2316E869EF00C0FB64 /* beermug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beermug.jpg; sourceTree = "<group>"; };
 		9FCF3D2516E86A7500C0FB64 /* CustomBeerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBeerTableCell.h; sourceTree = "<group>"; };
 		9FCF3D2616E86A7500C0FB64 /* CustomBeerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBeerTableCell.m; sourceTree = "<group>"; };
+		9FCF3D2816E9849F00C0FB64 /* BeerAppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BeerAppIcon@2x.png"; sourceTree = "<group>"; };
+		9FCF3D2A16E9852800C0FB64 /* BeerAppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BeerAppIcon.png; sourceTree = "<group>"; };
+		9FCF3D2C16E9875D00C0FB64 /* BeerDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerDetailView.xib; sourceTree = "<group>"; };
+		9FCF3D2E16E989D200C0FB64 /* BeerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerDetailViewController.h; sourceTree = "<group>"; };
+		9FCF3D2F16E989D200C0FB64 /* BeerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +75,8 @@
 		9FCF3CEF16E7002300C0FB64 = {
 			isa = PBXGroup;
 			children = (
+				9FCF3D2A16E9852800C0FB64 /* BeerAppIcon.png */,
+				9FCF3D2816E9849F00C0FB64 /* BeerAppIcon@2x.png */,
 				9FCF3D0116E7002300C0FB64 /* BottlesOfBeer */,
 				9FCF3CFA16E7002300C0FB64 /* Frameworks */,
 				9FCF3CF916E7002300C0FB64 /* Products */,
@@ -105,6 +116,9 @@
 				9FCF3D2116E868C000C0FB64 /* CustomBeerCell.xib */,
 				9FCF3D2516E86A7500C0FB64 /* CustomBeerTableCell.h */,
 				9FCF3D2616E86A7500C0FB64 /* CustomBeerTableCell.m */,
+				9FCF3D2C16E9875D00C0FB64 /* BeerDetailView.xib */,
+				9FCF3D2E16E989D200C0FB64 /* BeerDetailViewController.h */,
+				9FCF3D2F16E989D200C0FB64 /* BeerDetailViewController.m */,
 			);
 			path = BottlesOfBeer;
 			sourceTree = "<group>";
@@ -181,6 +195,9 @@
 				9FCF3D1816E7002300C0FB64 /* ViewController.xib in Resources */,
 				9FCF3D2216E868C000C0FB64 /* CustomBeerCell.xib in Resources */,
 				9FCF3D2416E869EF00C0FB64 /* beermug.jpg in Resources */,
+				9FCF3D2916E9849F00C0FB64 /* BeerAppIcon@2x.png in Resources */,
+				9FCF3D2B16E9852800C0FB64 /* BeerAppIcon.png in Resources */,
+				9FCF3D2D16E9875D00C0FB64 /* BeerDetailView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +213,7 @@
 				9FCF3D1516E7002300C0FB64 /* ViewController.m in Sources */,
 				9FCF3D2016E7967F00C0FB64 /* BeerInfo.m in Sources */,
 				9FCF3D2716E86A7500C0FB64 /* CustomBeerTableCell.m in Sources */,
+				9FCF3D3016E989D300C0FB64 /* BeerDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

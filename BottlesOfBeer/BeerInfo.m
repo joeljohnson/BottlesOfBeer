@@ -27,6 +27,7 @@
 
 -(NSMutableArray *)beerBrewerName
 {
+    beerBrewerName = [[NSMutableArray alloc] initWithObjects:@"Dogfish Head Brewery",@"Dogfish Head Brewery",@"Dogfish Head Brewery",@"Harpoon Brewery",@"Russian River Brewing Company",@"Russian River Brewing Company",@"Moylan's",@"Moylan's",@"Sixpoint",@"Great Divide",@"Green Flash",@"Great Divide",@"Goose Island",@"Founders",@"Cigar City",@"BrewDog",@"BrewDog",@"Bell's Brewery",@"Bear Republic",@"21st Amendment",nil];
     return beerBrewerName;
 }
 @end
