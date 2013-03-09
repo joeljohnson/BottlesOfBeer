@@ -35,5 +35,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+-(IBAction)closeDetailView:(id)sender
+{
+    [self dismissViewControllerAnimated:true completion:nil];
+}
 
 @end

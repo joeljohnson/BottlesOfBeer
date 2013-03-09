@@ -10,4 +10,9 @@
 
 @interface BeerDetailViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UILabel *BeerNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel *BrewerNameLabel;
+
+
+-(IBAction)closeDetailView:(id)sender;
 @end

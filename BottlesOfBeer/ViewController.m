@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomBeerTableCell.h"
+#import "BeerDetailViewController.h"
 
 @interface ViewController ()
 
@@ -35,6 +36,10 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return beers.count;
+}
+- (UITableViewCellEditingStyle)tableView:(UITableView *)tableView editingStyleForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return UITableViewCellEditingStyleDelete;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -65,6 +70,39 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    BeerDetailViewController *bDeets = [[BeerDetailViewController alloc] initWithNibName:@"BeerDetailView" bundle:nil];
+    if (bDeets != nil)
+    {
+        bDeets.BeerNameLabel = [beers objectAtIndex:indexPath.row];
+        NSLog(@"%@", bDeets.BeerNameLabel);
+        
+        bDeets.BrewerNameLabel = [brewers objectAtIndex:indexPath.row];
+        
+        [self presentViewController:bDeets animated:true completion:nil];
 
+        
+    }
+}
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete)
+    {
+        [beers removeObjectAtIndex:indexPath.row];
+        [beerItems deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:true];
+    }
+}
+
+
+-(IBAction)editPressed:(id)sender
+{
+    if (beerItems.editing == true)
+    {
+        [beerItems setEditing:false animated:true];
+    }
+    else
+    {
+        [beerItems setEditing:true animated:true];
+    }
+    
 }
 @end

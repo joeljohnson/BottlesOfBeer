@@ -16,4 +16,6 @@
     NSMutableArray *brewers;
 }
 
+-(IBAction)editPressed:(id)sender;
+
 @end
