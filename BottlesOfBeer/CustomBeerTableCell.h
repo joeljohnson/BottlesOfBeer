@@ -13,5 +13,6 @@
 
 @property IBOutlet UILabel *beerLabel;
 @property IBOutlet UILabel *brewerLabel;
+@property IBOutlet UIImageView *beerImage;
 
 @end

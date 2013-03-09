@@ -26,6 +26,27 @@
 		9FCF3D2B16E9852800C0FB64 /* BeerAppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2A16E9852800C0FB64 /* BeerAppIcon.png */; };
 		9FCF3D2D16E9875D00C0FB64 /* BeerDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2C16E9875D00C0FB64 /* BeerDetailView.xib */; };
 		9FCF3D3016E989D300C0FB64 /* BeerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF3D2F16E989D200C0FB64 /* BeerDetailViewController.m */; };
+		9FCF3D4416EAD05800C0FB64 /* 60minute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3116EAD05700C0FB64 /* 60minute.jpg */; };
+		9FCF3D4516EAD05800C0FB64 /* 90minute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3216EAD05800C0FB64 /* 90minute.jpg */; };
+		9FCF3D4616EAD05800C0FB64 /* 120minute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3316EAD05800C0FB64 /* 120minute.jpg */; };
+		9FCF3D4716EAD05800C0FB64 /* atlanticIPA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3416EAD05800C0FB64 /* atlanticIPA.jpg */; };
+		9FCF3D4816EAD05800C0FB64 /* bengali.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3516EAD05800C0FB64 /* bengali.jpg */; };
+		9FCF3D4916EAD05800C0FB64 /* brewfreeordie.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3616EAD05800C0FB64 /* brewfreeordie.png */; };
+		9FCF3D4A16EAD05800C0FB64 /* centennial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3716EAD05800C0FB64 /* centennial.jpg */; };
+		9FCF3D4B16EAD05800C0FB64 /* gooseisland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3816EAD05800C0FB64 /* gooseisland.jpg */; };
+		9FCF3D4C16EAD05800C0FB64 /* greenflash.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3916EAD05800C0FB64 /* greenflash.png */; };
+		9FCF3D4D16EAD05800C0FB64 /* hercules.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3A16EAD05800C0FB64 /* hercules.jpg */; };
+		9FCF3D4E16EAD05800C0FB64 /* hopsickle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3B16EAD05800C0FB64 /* hopsickle.jpg */; };
+		9FCF3D4F16EAD05800C0FB64 /* jaialai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3C16EAD05800C0FB64 /* jaialai.jpg */; };
+		9FCF3D5016EAD05800C0FB64 /* leviathan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3D16EAD05800C0FB64 /* leviathan.jpg */; };
+		9FCF3D5116EAD05800C0FB64 /* moylansdoubleipa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3E16EAD05800C0FB64 /* moylansdoubleipa.jpg */; };
+		9FCF3D5216EAD05800C0FB64 /* moylansipa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D3F16EAD05800C0FB64 /* moylansipa.jpg */; };
+		9FCF3D5316EAD05800C0FB64 /* plinytheelder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D4016EAD05800C0FB64 /* plinytheelder.jpg */; };
+		9FCF3D5416EAD05800C0FB64 /* plinytheyounger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D4116EAD05800C0FB64 /* plinytheyounger.jpg */; };
+		9FCF3D5516EAD05800C0FB64 /* Racer5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D4216EAD05800C0FB64 /* Racer5.jpg */; };
+		9FCF3D5616EAD05800C0FB64 /* tacticalnuclearpenguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D4316EAD05800C0FB64 /* tacticalnuclearpenguin.jpg */; };
+		9FCF3D5916EAD24000C0FB64 /* titan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D5816EAD24000C0FB64 /* titan.jpg */; };
+		9FCF3D5B16EAD2E400C0FB64 /* twohearted.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FCF3D5A16EAD2E400C0FB64 /* twohearted.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +77,27 @@
 		9FCF3D2C16E9875D00C0FB64 /* BeerDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BeerDetailView.xib; sourceTree = "<group>"; };
 		9FCF3D2E16E989D200C0FB64 /* BeerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeerDetailViewController.h; sourceTree = "<group>"; };
 		9FCF3D2F16E989D200C0FB64 /* BeerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeerDetailViewController.m; sourceTree = "<group>"; };
+		9FCF3D3116EAD05700C0FB64 /* 60minute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 60minute.jpg; path = BottlesOfBeer/beerImages/60minute.jpg; sourceTree = "<group>"; };
+		9FCF3D3216EAD05800C0FB64 /* 90minute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 90minute.jpg; path = BottlesOfBeer/beerImages/90minute.jpg; sourceTree = "<group>"; };
+		9FCF3D3316EAD05800C0FB64 /* 120minute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 120minute.jpg; path = BottlesOfBeer/beerImages/120minute.jpg; sourceTree = "<group>"; };
+		9FCF3D3416EAD05800C0FB64 /* atlanticIPA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = atlanticIPA.jpg; path = BottlesOfBeer/beerImages/atlanticIPA.jpg; sourceTree = "<group>"; };
+		9FCF3D3516EAD05800C0FB64 /* bengali.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bengali.jpg; path = BottlesOfBeer/beerImages/bengali.jpg; sourceTree = "<group>"; };
+		9FCF3D3616EAD05800C0FB64 /* brewfreeordie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = brewfreeordie.png; path = BottlesOfBeer/beerImages/brewfreeordie.png; sourceTree = "<group>"; };
+		9FCF3D3716EAD05800C0FB64 /* centennial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = centennial.jpg; path = BottlesOfBeer/beerImages/centennial.jpg; sourceTree = "<group>"; };
+		9FCF3D3816EAD05800C0FB64 /* gooseisland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gooseisland.jpg; path = BottlesOfBeer/beerImages/gooseisland.jpg; sourceTree = "<group>"; };
+		9FCF3D3916EAD05800C0FB64 /* greenflash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = greenflash.png; path = BottlesOfBeer/beerImages/greenflash.png; sourceTree = "<group>"; };
+		9FCF3D3A16EAD05800C0FB64 /* hercules.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hercules.jpg; path = BottlesOfBeer/beerImages/hercules.jpg; sourceTree = "<group>"; };
+		9FCF3D3B16EAD05800C0FB64 /* hopsickle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hopsickle.jpg; path = BottlesOfBeer/beerImages/hopsickle.jpg; sourceTree = "<group>"; };
+		9FCF3D3C16EAD05800C0FB64 /* jaialai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jaialai.jpg; path = BottlesOfBeer/beerImages/jaialai.jpg; sourceTree = "<group>"; };
+		9FCF3D3D16EAD05800C0FB64 /* leviathan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = leviathan.jpg; path = BottlesOfBeer/beerImages/leviathan.jpg; sourceTree = "<group>"; };
+		9FCF3D3E16EAD05800C0FB64 /* moylansdoubleipa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moylansdoubleipa.jpg; path = BottlesOfBeer/beerImages/moylansdoubleipa.jpg; sourceTree = "<group>"; };
+		9FCF3D3F16EAD05800C0FB64 /* moylansipa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = moylansipa.jpg; path = BottlesOfBeer/beerImages/moylansipa.jpg; sourceTree = "<group>"; };
+		9FCF3D4016EAD05800C0FB64 /* plinytheelder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plinytheelder.jpg; path = BottlesOfBeer/beerImages/plinytheelder.jpg; sourceTree = "<group>"; };
+		9FCF3D4116EAD05800C0FB64 /* plinytheyounger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = plinytheyounger.jpg; path = BottlesOfBeer/beerImages/plinytheyounger.jpg; sourceTree = "<group>"; };
+		9FCF3D4216EAD05800C0FB64 /* Racer5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Racer5.jpg; path = BottlesOfBeer/beerImages/Racer5.jpg; sourceTree = "<group>"; };
+		9FCF3D4316EAD05800C0FB64 /* tacticalnuclearpenguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tacticalnuclearpenguin.jpg; path = BottlesOfBeer/beerImages/tacticalnuclearpenguin.jpg; sourceTree = "<group>"; };
+		9FCF3D5816EAD24000C0FB64 /* titan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = titan.jpg; path = BottlesOfBeer/beerImages/titan.jpg; sourceTree = "<group>"; };
+		9FCF3D5A16EAD2E400C0FB64 /* twohearted.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = twohearted.jpg; path = BottlesOfBeer/beerImages/twohearted.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +119,7 @@
 			children = (
 				9FCF3D2A16E9852800C0FB64 /* BeerAppIcon.png */,
 				9FCF3D2816E9849F00C0FB64 /* BeerAppIcon@2x.png */,
+				9FCF3D5716EAD06200C0FB64 /* beerimages */,
 				9FCF3D0116E7002300C0FB64 /* BottlesOfBeer */,
 				9FCF3CFA16E7002300C0FB64 /* Frameworks */,
 				9FCF3CF916E7002300C0FB64 /* Products */,
@@ -135,6 +178,34 @@
 				9FCF3D1116E7002300C0FB64 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9FCF3D5716EAD06200C0FB64 /* beerimages */ = {
+			isa = PBXGroup;
+			children = (
+				9FCF3D5A16EAD2E400C0FB64 /* twohearted.jpg */,
+				9FCF3D5816EAD24000C0FB64 /* titan.jpg */,
+				9FCF3D3116EAD05700C0FB64 /* 60minute.jpg */,
+				9FCF3D3216EAD05800C0FB64 /* 90minute.jpg */,
+				9FCF3D3316EAD05800C0FB64 /* 120minute.jpg */,
+				9FCF3D3416EAD05800C0FB64 /* atlanticIPA.jpg */,
+				9FCF3D3516EAD05800C0FB64 /* bengali.jpg */,
+				9FCF3D3616EAD05800C0FB64 /* brewfreeordie.png */,
+				9FCF3D3716EAD05800C0FB64 /* centennial.jpg */,
+				9FCF3D3816EAD05800C0FB64 /* gooseisland.jpg */,
+				9FCF3D3916EAD05800C0FB64 /* greenflash.png */,
+				9FCF3D3A16EAD05800C0FB64 /* hercules.jpg */,
+				9FCF3D3B16EAD05800C0FB64 /* hopsickle.jpg */,
+				9FCF3D3C16EAD05800C0FB64 /* jaialai.jpg */,
+				9FCF3D3D16EAD05800C0FB64 /* leviathan.jpg */,
+				9FCF3D3E16EAD05800C0FB64 /* moylansdoubleipa.jpg */,
+				9FCF3D3F16EAD05800C0FB64 /* moylansipa.jpg */,
+				9FCF3D4016EAD05800C0FB64 /* plinytheelder.jpg */,
+				9FCF3D4116EAD05800C0FB64 /* plinytheyounger.jpg */,
+				9FCF3D4216EAD05800C0FB64 /* Racer5.jpg */,
+				9FCF3D4316EAD05800C0FB64 /* tacticalnuclearpenguin.jpg */,
+			);
+			name = beerimages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +269,27 @@
 				9FCF3D2916E9849F00C0FB64 /* BeerAppIcon@2x.png in Resources */,
 				9FCF3D2B16E9852800C0FB64 /* BeerAppIcon.png in Resources */,
 				9FCF3D2D16E9875D00C0FB64 /* BeerDetailView.xib in Resources */,
+				9FCF3D4416EAD05800C0FB64 /* 60minute.jpg in Resources */,
+				9FCF3D4516EAD05800C0FB64 /* 90minute.jpg in Resources */,
+				9FCF3D4616EAD05800C0FB64 /* 120minute.jpg in Resources */,
+				9FCF3D4716EAD05800C0FB64 /* atlanticIPA.jpg in Resources */,
+				9FCF3D4816EAD05800C0FB64 /* bengali.jpg in Resources */,
+				9FCF3D4916EAD05800C0FB64 /* brewfreeordie.png in Resources */,
+				9FCF3D4A16EAD05800C0FB64 /* centennial.jpg in Resources */,
+				9FCF3D4B16EAD05800C0FB64 /* gooseisland.jpg in Resources */,
+				9FCF3D4C16EAD05800C0FB64 /* greenflash.png in Resources */,
+				9FCF3D4D16EAD05800C0FB64 /* hercules.jpg in Resources */,
+				9FCF3D4E16EAD05800C0FB64 /* hopsickle.jpg in Resources */,
+				9FCF3D4F16EAD05800C0FB64 /* jaialai.jpg in Resources */,
+				9FCF3D5016EAD05800C0FB64 /* leviathan.jpg in Resources */,
+				9FCF3D5116EAD05800C0FB64 /* moylansdoubleipa.jpg in Resources */,
+				9FCF3D5216EAD05800C0FB64 /* moylansipa.jpg in Resources */,
+				9FCF3D5316EAD05800C0FB64 /* plinytheelder.jpg in Resources */,
+				9FCF3D5416EAD05800C0FB64 /* plinytheyounger.jpg in Resources */,
+				9FCF3D5516EAD05800C0FB64 /* Racer5.jpg in Resources */,
+				9FCF3D5616EAD05800C0FB64 /* tacticalnuclearpenguin.jpg in Resources */,
+				9FCF3D5916EAD24000C0FB64 /* titan.jpg in Resources */,
+				9FCF3D5B16EAD2E400C0FB64 /* twohearted.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,8 +20,9 @@
 {
     BeerInfo *bNames = [[BeerInfo alloc] init];
     beers = [bNames beerNames];
-    BeerInfo *brewerNames = [[BeerInfo alloc] init];
-    brewers = [brewerNames beerBrewerName];
+    brewers = [bNames beerBrewerName];
+    beerImages =[bNames beerPics];
+    
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
@@ -59,6 +60,7 @@
              cell = (CustomBeerTableCell*)view;
              cell.beerLabel.text = [beers objectAtIndex:indexPath.row];
              cell.brewerLabel.text = [brewers objectAtIndex:indexPath.row];
+            // cell.beerImage.image = [beerImages objectAtIndex:indexPath.row];
              
          }
         }
@@ -73,12 +75,13 @@
     BeerDetailViewController *bDeets = [[BeerDetailViewController alloc] initWithNibName:@"BeerDetailView" bundle:nil];
     if (bDeets != nil)
     {
-        bDeets.BeerNameLabel = [beers objectAtIndex:indexPath.row];
-        NSLog(@"%@", bDeets.BeerNameLabel);
-        
-        bDeets.BrewerNameLabel = [brewers objectAtIndex:indexPath.row];
+
         
         [self presentViewController:bDeets animated:true completion:nil];
+        bDeets.BeerNameLabel.text = [beers objectAtIndex:indexPath.row];
+        NSLog(@"%@", bDeets.BeerNameLabel);
+        bDeets.BrewerNameLabel.text = [brewers objectAtIndex:indexPath.row];
+
 
         
     }

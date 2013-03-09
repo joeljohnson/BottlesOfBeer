@@ -12,9 +12,12 @@
 {
     NSMutableArray *beerNames;
     NSMutableArray *beerBrewerName;
+    NSMutableArray *beerPics;
 }
 
 -(NSMutableArray *)beerNames;
 -(NSMutableArray *)beerBrewerName;
+-(NSMutableArray *)beerPics;
+
 
 @end

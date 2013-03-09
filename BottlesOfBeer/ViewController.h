@@ -14,6 +14,8 @@
     IBOutlet UITableView *beerItems;
     NSMutableArray *beers;
     NSMutableArray *brewers;
+    NSMutableArray *beerImages;
+    
 }
 
 -(IBAction)editPressed:(id)sender;

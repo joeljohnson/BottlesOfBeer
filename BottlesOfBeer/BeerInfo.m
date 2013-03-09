@@ -30,4 +30,10 @@
     beerBrewerName = [[NSMutableArray alloc] initWithObjects:@"Dogfish Head Brewery",@"Dogfish Head Brewery",@"Dogfish Head Brewery",@"Harpoon Brewery",@"Russian River Brewing Company",@"Russian River Brewing Company",@"Moylan's",@"Moylan's",@"Sixpoint",@"Great Divide",@"Green Flash",@"Great Divide",@"Goose Island",@"Founders",@"Cigar City",@"BrewDog",@"BrewDog",@"Bell's Brewery",@"Bear Republic",@"21st Amendment",nil];
     return beerBrewerName;
 }
+
+-(NSMutableArray *)beerPics
+{
+    beerPics = [[NSMutableArray alloc] initWithObjects:@"60minute.jpg",@"90minute.jpg",@"120minute.jpg",@"leviathan.jpg",@"plinytheelder",@"plinytheyounger",@"moylansdoubleipa.jpg",@"hopsickle.jpg",@"bengali.jpg",@"titan.jpg",@"greenflash.jpg",@"hercules.jpg",@"gooseisland.jpg",@"centennial.jpg",@"jaialai.jpg",@"atlanticIPA.jpg",@"tacticalnuclearpenguin.jpg",@"twohearted.jpg",@"Racer5.jpg",@"brewfreeordie.png", nil];
+    return beerPics;
+}
 @end
