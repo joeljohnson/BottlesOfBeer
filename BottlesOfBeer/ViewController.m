@@ -61,7 +61,7 @@
              cell.beerLabel.text = [beers objectAtIndex:indexPath.row];
              cell.brewerLabel.text = [brewers objectAtIndex:indexPath.row];
             // cell.beerImage.image = [beerImages objectAtIndex:indexPath.row];
-             
+             cell.beerImage.image = [UIImage imageNamed:[beerImages objectAtIndex:indexPath.row]];
          }
         }
         
@@ -75,15 +75,10 @@
     BeerDetailViewController *bDeets = [[BeerDetailViewController alloc] initWithNibName:@"BeerDetailView" bundle:nil];
     if (bDeets != nil)
     {
-
-        
         [self presentViewController:bDeets animated:true completion:nil];
         bDeets.BeerNameLabel.text = [beers objectAtIndex:indexPath.row];
-        NSLog(@"%@", bDeets.BeerNameLabel);
         bDeets.BrewerNameLabel.text = [brewers objectAtIndex:indexPath.row];
-
-
-        
+        bDeets.beerPic.image = [UIImage imageNamed:[beerImages objectAtIndex:indexPath.row]];
     }
 }
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath

@@ -12,6 +12,7 @@
 
 @property (nonatomic, weak) IBOutlet UILabel *BeerNameLabel;
 @property (nonatomic, weak) IBOutlet UILabel *BrewerNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *beerPic;
 
 
 -(IBAction)closeDetailView:(id)sender;

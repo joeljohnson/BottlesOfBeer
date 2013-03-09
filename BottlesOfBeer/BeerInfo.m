@@ -20,7 +20,7 @@
 
 -(NSMutableArray *)beerNames
 {
-    beerNames = [[NSMutableArray alloc] initWithObjects:@"60 Minute IPA ",@"90 Minute IPA ",@"120 Minute IPA ",@"Leviathan Imperial IPA", @"Pliny The Elder	", @"Pliny The Younger", @"Moylander Double IPA",@"Hopsickle",@"Bengali Tiger",@"Titan IPA",@"Green Flash Imperial IPA",@"Hercules Double IPA",@"Goose Island Imperial IPA",@"Centennial IPA",@"Jai Alai IPA",@"Brewdog Atlantic IPA",@"Tactical Nuclear Penguin",@"Two Hearted Ale",@"Racer 5",@"Brew Free! Or Die IPA",nil];
+    beerNames = [[NSMutableArray alloc] initWithObjects:@"60 Minute IPA",@"90 Minute IPA",@"120 Minute IPA",@"Leviathan Imperial IPA", @"Pliny The Elder", @"Pliny The Younger", @"Moylander Double IPA",@"Hopsickle",@"Bengali Tiger",@"Titan IPA",@"Green Flash Imperial IPA",@"Hercules Double IPA",@"Goose Island Imperial IPA",@"Centennial IPA",@"Jai Alai IPA",@"Brewdog Atlantic IPA",@"Tactical Nuclear Penguin",@"Two Hearted Ale",@"Racer 5",@"Brew Free! Or Die IPA",nil];
     
     return beerNames;
 }
@@ -33,7 +33,7 @@
 
 -(NSMutableArray *)beerPics
 {
-    beerPics = [[NSMutableArray alloc] initWithObjects:@"60minute.jpg",@"90minute.jpg",@"120minute.jpg",@"leviathan.jpg",@"plinytheelder",@"plinytheyounger",@"moylansdoubleipa.jpg",@"hopsickle.jpg",@"bengali.jpg",@"titan.jpg",@"greenflash.jpg",@"hercules.jpg",@"gooseisland.jpg",@"centennial.jpg",@"jaialai.jpg",@"atlanticIPA.jpg",@"tacticalnuclearpenguin.jpg",@"twohearted.jpg",@"Racer5.jpg",@"brewfreeordie.png", nil];
+    beerPics = [[NSMutableArray alloc] initWithObjects:@"60minute.jpg",@"90minute.jpg",@"120minute.jpg",@"leviathan.jpg",@"plinytheelder.jpg",@"plinytheyounger.jpg",@"moylansdoubleipa.jpg",@"hopsickle.jpg",@"bengali.jpg",@"titan.jpg",@"greenflash.png",@"hercules.jpg",@"gooseisland.jpg",@"centennial.jpg",@"jaialai.jpg",@"atlanticIPA.jpg",@"tacticalnuclearpenguin.jpg",@"twohearted.jpg",@"Racer5.jpg",@"brewfreeordie.png", nil];
     return beerPics;
 }
 @end
