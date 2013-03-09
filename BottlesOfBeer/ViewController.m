@@ -91,6 +91,7 @@
     if (editingStyle == UITableViewCellEditingStyleDelete)
     {
         [beers removeObjectAtIndex:indexPath.row];
+        [brewers removeObjectAtIndex:indexPath.row];
         [beerItems deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:true];
     }
 }
